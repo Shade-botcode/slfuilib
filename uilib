@@ -698,7 +698,7 @@ checked.ImageTransparency = 1.000
 
 Sample.Name = "Sample"
 Sample.Parent = checkbox
-Sample.BackgroundColor3 = Color3.fromRGB(150,0,255)
+Sample.BackgroundColor3 = Color3.fromRGB(216, 0, 209)
 Sample.BackgroundTransparency = 1.000
 Sample.ZIndex = 12
 Sample.Image = "http://www.roblox.com/asset/?id=4560909609"
