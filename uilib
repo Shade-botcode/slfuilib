@@ -781,13 +781,13 @@ if not helding then
 PressFrame.MouseButton1Click:Connect(function()
 		if toggled.Value == false then
 			toggled.Value = true
-		color(checkbox,150,0,255,0.3)
+		color(checkbox,255,0,247,0.3)
 			color(inner,150,0,255,0.2)
 			fade(checked,0,0.3)
 			callback(toggled.Value)
 		else if toggled.Value == true then
 			toggled.Value = false
-			color(checkbox,150,150,150,0.3)
+			color(checkbox,255,255,255,0.3)
 				color(inner,30,30,30,0.2)
 				fade(checked,1,0.3)
 				callback(toggled.Value)
@@ -796,14 +796,14 @@ PressFrame.MouseButton1Click:Connect(function()
 end)
 
 PressFrame.MouseEnter:Connect(function()
-	color(checkbox,150,0,255,0.2)
+	color(checkbox,255,0,247,0.2)
 	end)
 	
 	PressFrame.MouseLeave:Connect(function()
 	if toggled.Value == true then
-	color(checkbox,150,0,255,0.2)
+	color(checkbox,255,0,247,0.2)
 	else
-	color(checkbox,150,150,150,0.2)
+	color(checkbox,255,255,255,0.2)
 	end
 	end)
 	
@@ -1005,7 +1005,7 @@ TextBox.FocusLost:Connect(function()
 
 		Sample.Name = "Sample"
 		Sample.Parent = tabbtn
-		Sample.BackgroundColor3 = Color3.fromRGB(150,0,255)
+		Sample.BackgroundColor3 = Color3.fromRGB(255,0,247)
 		Sample.BackgroundTransparency = 1.000
 		Sample.ZIndex = 12
 		Sample.Image = "http://www.roblox.com/asset/?id=4560909609"
