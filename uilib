@@ -359,7 +359,7 @@ tabbtn.Text = name
 
 Sample.Name = "Sample"
 Sample.Parent = tabbtn
-Sample.BackgroundColor3 = Color3.fromRGB(150,0,255)
+Sample.BackgroundColor3 = Color3.fromRGB(255, 0, 247)
 Sample.BackgroundTransparency = 1.000
 Sample.ZIndex = 12
 Sample.ImageColor3 = Color3.fromRGB(255, 0, 247)
@@ -441,7 +441,7 @@ btnCorn.Parent = btn
 
 Sample.Name = "Sample"
 Sample.Parent = tabbtn
-Sample.BackgroundColor3 = Color3.fromRGB(150,0,255)
+Sample.BackgroundColor3 = Color3.fromRGB(255, 0, 247)
 Sample.BackgroundTransparency = 1.000
 Sample.ZIndex = 12
 Sample.Image = "http://www.roblox.com/asset/?id=4560909609"
