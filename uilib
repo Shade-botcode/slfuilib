@@ -782,7 +782,7 @@ PressFrame.MouseButton1Click:Connect(function()
 		if toggled.Value == false then
 			toggled.Value = true
 		color(checkbox,255,0,247,0.3)
-			color(inner,150,0,255,0.2)
+			color(inner,216,0,209,0.2)
 			fade(checked,0,0.3)
 			callback(toggled.Value)
 		else if toggled.Value == true then
